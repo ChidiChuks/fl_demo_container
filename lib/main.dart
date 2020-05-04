@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               decoration: BoxDecoration(
                 color: Colors.orange,
-                gradient: LinearGradient(
-                  begin: Alignment(0.0, -1.0),
-                  end: Alignment(0.0, -0.8),
+                gradient: RadialGradient(
+                  radius: 0.25,
+                  center: Alignment(0.3, 0.5),
                   tileMode: TileMode.mirror,
                   colors: [Colors.purple[50], Colors.purple[500]]
                 ),
