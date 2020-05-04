@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             Container(
               margin: EdgeInsets.all(50.0),
-              width: 300.0,
-              height: 300.0,
+              width: 400.0,
+              height: 500.0,
               // child: FlutterLogo(),
               decoration: BoxDecoration(
                 color: Colors.orange,
@@ -25,6 +25,8 @@ class MyApp extends StatelessWidget {
                 // ),
                 image: DecorationImage(
                   image: new AssetImage('assets/tiger.png'),
+                  // fit: BoxFit.scaleDown,
+                  repeat: ImageRepeat.noRepeat,
                 ),
                 // gradient: RadialGradient(
                 //   radius: 0.25,
@@ -32,7 +34,7 @@ class MyApp extends StatelessWidget {
                 //   tileMode: TileMode.mirror,
                 //   colors: [Colors.purple[50], Colors.purple[500]]
                 // ),
-                shape: BoxShape.circle,
+                shape: BoxShape.rectangle,
                 // borderRadius: BorderRadius.only(
                 //   topLeft: Radius.circular(25.0),
                 //   bottomRight: Radius.circular(25.0),
