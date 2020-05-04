@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment(0.0, -1.0),
                   end: Alignment(0.0, -0.8),
-                  tileMode: TileMode.repeated,
+                  tileMode: TileMode.mirror,
                   colors: [Colors.purple[50], Colors.purple[500]]
                 ),
                 shape: BoxShape.rectangle,
